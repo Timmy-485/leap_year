@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background-color: rgb(115,173,254); */
+    background-image: url(../images/bodybg2.jpg);
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.phone {
+    width: 30%;
+    margin: 10% auto 0 auto;
+    height: 90%;
+    background-image: url(../images/dust.jpg);
+    background-size: cover;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    opacity: 0.9;
+    padding-top: 4rem;
+}
+
+.phone .header {
+    width: 70%;
+    height: 20%;
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 3rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.phone .header p {
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.phone form {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+.phone form input {
+    width: 80%;
+    padding: 1.5rem 0;
+    margin: 1rem 10%;
+    border-radius: 1rem;
+    border: none;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.phone form #checkYear{
+    width: 40%;
+    margin: 1rem 30%;
+}
+
+.phone form #checkYear:hover{
+    cursor: pointer;
+    border: black 1px solid;
+}
+
+#output{
+    display: none;
+}
+
+.showOutput{
+    display: block !important;
+}
