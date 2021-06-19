@@ -8,16 +8,32 @@
     <title>Leap Year Calculator</title>
 </head>
 <body>
-    <div class="phone">
-        <div class="header">
-            <p>LEAP YEAR CALCULATOR</p>
+    <div class="container">
+        <div class="leftContainer">
+            <div class="phone display">
+                <div class="header">
+                    <p>LEAP YEAR CALCULATOR</p>
+                </div>
+                <form action="">
+                    <input type="number" name="" id="input" placeholder="Insert Year">
+                    <input type="button" value="Check Year" id="checkYear" onclick="leapYear()">
+                    
+                </form>
+            </div>
         </div>
-        <form action="">
-            <input type="number" name="" id="input">
-            <input type="button" value="Check Year" id="checkYear" onclick="leapYear()">
-            <input type="text" name="" id="output">
-        </form>
+
+        <div class="rightContainer">
+            <div class="phone2 display">
+                <div class="image">
+                    <img src="" alt="" id="outputImage">
+                </div>
+                <input type="text" name="" id="output">
+            </div>
+        </div>
+        
+        
     </div>
+    
 
 
     <script src="scripts/index.js"></script>
